@@ -10,24 +10,24 @@ import ru.myproject.voiceassistant.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private var TAG = "MainActivity"
-    private lateinit var binding: ActivityMainBinding
+  private lateinit var binding: ActivityMainBinding
     private lateinit var podsAdapter: SimpleAdapter
     private val pods = mutableListOf(
         HashMap<String, String>().apply {
-            put("Title", "Title1")
-            put("Content", "Content1")
+            put("Title", "Title 1")
+            put("Content", "Content 1")
         },
         HashMap<String, String>().apply {
-            put("Title", "Title2")
-            put("Content", "Content2")
+            put("Title", "Title 2")
+            put("Content", "Content 2")
         },
         HashMap<String, String>().apply {
-            put("Title", "Title3")
-            put("Content", "Content3")
+            put("Title", "Title 3")
+            put("Content", "Content 3")
         },
         HashMap<String, String>().apply {
-            put("Title", "Title4")
-            put("Content", "Content4")
+            put("Title", "Title 4")
+            put("Content", "Content 4")
         }
     )
 
