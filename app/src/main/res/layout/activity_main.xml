@@ -46,7 +46,7 @@
         android:divider="?android:attr/colorBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_input_layout"
-        tools:listitem="@layout/item_pod" />
+        tools:listitem="@layout/item_pod"         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/voice_input_button"
@@ -55,7 +55,8 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_baseline_keyboard_voice_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="@integer/material_motion_duration_long_1"/>
 
     <ProgressBar
         android:id="@+id/progres_bar"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Голосовй помошник</string>
+    <string name="app_name">Голосовой помошник</string>
     <string name="action_stop">Stop</string>
     <string name="action_clear">Clear</string>
     <string name="request_hint">What are you interested in?</string>
