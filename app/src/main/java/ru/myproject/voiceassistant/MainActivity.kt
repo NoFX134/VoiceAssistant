@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         setSupportActionBar(binding.toolbar)
         binding.textInputEdit.setOnEditorActionListener { _, actionId, _ ->
-            if (actionId == EditorInfo.IME_ACTION_DONE) {
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 pods.clear()
                 podsAdapter.notifyDataSetChanged()
                 val question = binding.textInputEdit.text.toString()
